@@ -6,7 +6,7 @@ public class QuizMarvelUtil {
 	public static final String JOGADOR_ARQUIVO = "conf/database/jogadores.xls";
 	public static final String PERGUNTA_ARQUIVO = "conf/database/perguntas.xls";
 
-	// planos de fundo, para teste, para produção
+	// planos de fundo, para produção
 	public static final String IMAGEM_NV1 = "conf/image/quizmarvel_nv1.jpg";
 	public static final String IMAGEM_NV2 = "conf/image/quizmarvel_nv2.jpg";
 	public static final String IMAGEM_NV3 = "conf/image/quizmarvel_nv3.jpg";

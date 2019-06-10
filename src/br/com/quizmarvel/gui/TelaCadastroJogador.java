@@ -85,8 +85,9 @@ public class TelaCadastroJogador extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				Jogador jogador = new Jogador(textoNomeJogador.getText(), (String) comboCategoria.getSelectedItem(), 0,
 						0);
-				JogadorExcel jogadorExcel = new JogadorExcel();
+				JogadorExcel jogadorExcel = null;
 				try {
+					jogadorExcel = new JogadorExcel();
 					if (textoNomeJogador.getText().equals("")) {
 						JOptionPane.showMessageDialog(null, "Digite seu nome de Usuário", "Alerta de Cadastro",
 								JOptionPane.INFORMATION_MESSAGE);
